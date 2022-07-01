@@ -20,14 +20,14 @@ text("Dog", 70, 70);
 noFill();
 stroke(116, 132, 204);
 rect(60, 45, 450, 350);
-*/
+
 fill(116, 132, 204);
 textSize(25);
 textFont('Times New Roman')
 text("Cat", 255, 95);
 noFill();
 stroke(116, 132, 204);
-rect(245, 75, 350, 330);
+rect(245, 75, 350, 330);*/
 if(status != ""){
     for(i=0;i<objects.length;i++){
         document.getElementById("status").innerHTML = "Status: Object Detected";
